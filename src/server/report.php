@@ -279,9 +279,9 @@ else
 			{
 				$count++;
 
-				foreach ($answers2 as $akey => $answ) 
+				foreach ($answers2 as $akey => $answ)
 				{
-					foreach ($answ as $k => $a) 
+					foreach ($answ as $k => $a)
 					{
 						if (isset($a[$n]))
 						{
@@ -636,7 +636,7 @@ else
 			}
 		}
 
-		//Define 4 variables that contains the total for each column
+		// Define 4 variables that contains the total for each column
 		$totalsuccess = 0;
 		$totalhelp = 0;
 		$totalerror = 0;
